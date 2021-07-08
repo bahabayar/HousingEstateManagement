@@ -1,0 +1,36 @@
+﻿@model List<ExpenseDto>
+<table id="myDataTable" class="table table-hover table-striped">
+    <thead class="thead-light">
+        <tr>
+
+
+
+
+            <th scope="col">Kullanıcı Adı</th>
+            <th scope="col">Daire Numarası</th>
+            <th scope="col">Fatura Tarihi</th>
+            <th scope="col">Gider Türü</th>
+            <th scope="col">Ücret</th>
+
+            <th>
+
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var menu in Model)
+        {
+            <tr>
+                <td>@menu.UserName</td>
+                <td>@menu.FlatNumber</td>
+                <td>@menu.InvoiceDate</td>
+                <td>@menu.ExpenseTypeName</td>
+                <td>@menu.Price</td>
+                <td>
+                    <a href="/Expense/DeleteExpense?id=@menu.Id" class="btn btn-danger">Sil</a>
+                    <a href="/Expense/UpdateExpense?id=@menu.Id" class="btn btn-warning">Düzenle</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

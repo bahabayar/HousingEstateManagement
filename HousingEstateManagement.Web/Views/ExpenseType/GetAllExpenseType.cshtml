@@ -1,0 +1,39 @@
+﻿@model IEnumerable<ExpenseTypeDto>
+
+<div class="m-0">
+    <h3>Yeni Gider Türü  Ekle</h3>
+    <a class="btn btn-success btn-sm" asp-controller="ExpenseType" asp-action="CreateExpenseType">
+        Gider Türü Ekle
+    </a>
+</div>
+
+<table id="myDataTable" class="table table-hover table-striped">
+    <thead class="thead-light">
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Fatura/Gider İsmi</th>
+            <th></th>
+         
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var expenseType in Model)
+        {
+            <tr>
+                <td>@expenseType.Id</td>
+                <td>@expenseType.ExpenseTypeName</td>
+
+                <td>
+                    <a class="btn btn-warning " asp-controller="ExpenseType" asp-action="UpdateExpenseType"
+                       asp-route-id="@expenseType.Id">
+                        Güncelle
+                    </a>
+                    <a class="btn btn-danger " asp-controller="ExpenseType" asp-action="DeleteExpenseType"
+                       asp-route-id="@expenseType.Id">
+                        Sil
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

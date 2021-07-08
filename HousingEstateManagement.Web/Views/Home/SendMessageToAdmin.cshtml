@@ -1,0 +1,12 @@
+﻿@model MessageDto
+<form asp-controller="Home" asp-action="SendMessageToAdmin" class="was-validated">
+    <div class="mb-3">
+        <label asp-for="MessageContent" class="form-label"></label>
+        <textarea asp-for="MessageContent"></textarea>
+        <script>
+            CKEDITOR.replace('MessageContent');
+        </script>
+    </div>
+    <span asp-validation-for="MessageContent" class="text-danger"></span>
+    <button type="submit" class="btn btn-primary">Ekle</button>
+</form>

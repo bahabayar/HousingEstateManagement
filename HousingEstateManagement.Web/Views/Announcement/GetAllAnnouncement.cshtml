@@ -1,0 +1,32 @@
+﻿@model IEnumerable<AnnouncementDto>
+<div class="container-fluid">
+    <div class="m-0">
+        <h3>Yeni Duyuru Ekle</h3>
+        <a class="btn btn-success btn-sm" asp-controller="Announcement" asp-action="CreateAnnouncement">
+            Duyuru Ekle
+        </a>
+    </div>
+
+    <table id="myDataTable" class="table table-hover table-striped">
+        <thead class="thead-light">
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Duyuru</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var announcement in Model)
+            {
+                <tr>
+                    <td>@announcement.Id</td>
+                    <td>@Html.Raw(announcement.AnnouncementText)</td>
+                    <td>
+                        <a href="/Announcement/AnnouncementDelete?id=@announcement.Id" class="btn btn-danger ">Sil</a>
+                        <a href="/Announcement/UpdateAnnouncement?id=@announcement.Id" class="btn btn-warning ">Düzenle</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,12 @@
+﻿@model AnnouncementDto
+<form asp-controller="Announcement" asp-action="CreateAnnouncement">
+    <div class="mb-3">
+        <label asp-for="AnnouncementText" class="form-label">Yeni Duyuru Ekle</label>
+        <textarea asp-for="AnnouncementText"></textarea>
+        <script>
+            CKEDITOR.replace('AnnouncementText');
+        </script>
+        <span asp-validation-for="AnnouncementText" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Gönder</button>
+</form>

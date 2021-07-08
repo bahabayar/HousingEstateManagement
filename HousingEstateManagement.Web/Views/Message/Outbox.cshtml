@@ -1,0 +1,22 @@
+﻿@model List<MessageDto>
+<table id="myDataTable" class="table table-hover table-striped">
+    <thead class="thead-light">
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Mesaj</th>
+            <th scope="col">Alıcı </th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var menu in Model)
+        {
+            <tr>
+                <td>@menu.Id</td>
+                <td>@Html.Raw(menu.MessageContent)</td>
+                <td>@menu.UserName</td>
+           
+            </tr>
+        }
+    </tbody>
+</table>

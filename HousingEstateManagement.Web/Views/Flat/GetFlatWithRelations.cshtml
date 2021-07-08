@@ -1,0 +1,39 @@
+﻿@model List<FlatDto>
+<div class="m-0">
+    <h3>Siteye Yeni Bir Daire Ekle</h3>
+    <a class="btn btn-success btn-sm" asp-controller="Flat" asp-action="CreateFlat">
+        Daire Ekle
+    </a>
+</div>
+<table id="myDataTable" class="table table-hover table-striped">
+    <thead class="thead-light">
+        <tr>
+            <th scope="col">Blok</th>
+            <th scope="col">Daire Numarası</th>
+            <th scope="col">Kişi İsmi</th>
+            <th scope="col">Daire Tipi</th>
+            <th scope="col">Daire Durumu</th>
+
+            <th>
+
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var menu in Model)
+        {
+            <tr>
+                <td>@menu.BuildingName</td>
+                <td>@menu.FlatNumber</td>
+                <td>@menu.UserName</td>
+                <td>@menu.TypeOfFlat</td>
+                <td><span class="badge badge-success">Dolu</span></td>
+                <td>
+                    <a href="/Flat/UpdateFlat?id=@menu.Id" class="btn btn-warning">Düzenle</a>
+                    <a href="/Flat/DeleteFlat?id=@menu.Id" class="btn btn-danger">Sil</a>
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

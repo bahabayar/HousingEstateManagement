@@ -1,0 +1,23 @@
+﻿@model IEnumerable<AnnouncementDto>
+<div class="container-fluid">
+
+    <table id="myDataTable" class="table table-hover table-striped">
+        <thead class="thead-light">
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Duyuru</th>
+             
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var announcement in Model)
+            {
+                <tr>
+                    <td>@announcement.Id</td>
+                    <td>@Html.Raw(announcement.AnnouncementText)</td>
+              
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

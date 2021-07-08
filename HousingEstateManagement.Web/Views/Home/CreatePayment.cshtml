@@ -1,0 +1,35 @@
+﻿@model HousingEstateManagement.Core.PaymentApiModel.CreatePaymentDto
+<form asp-controller="Home" asp-action="CreatePayment" class="was-validated">
+    <div class="mb-3 ">
+        <label asp-for="Owner">Kredi Kartı Sahibi</label>
+        <input type="text" class="form-control" asp-for="Owner" required/>
+        <span asp-validation-for="Owner" class="text-danger"></span>
+    </div>
+    <div class="mb-3 ">
+        <label asp-for="CardNumber">Kart Numarası</label>
+        <input type="text" class="form-control" asp-for="CardNumber" required />
+        <span asp-validation-for="CardNumber" class="text-danger"></span>
+    </div>
+    <div class="mb-3 ">
+        <label asp-for="ValidMonth">Ay</label>
+        <input type="number" class="form-control" asp-for="ValidMonth" required />
+        <span asp-validation-for="ValidMonth" class="text-danger"></span>
+    </div>
+    <div class="mb-3 ">
+        <label asp-for="ValidYear">Yıl</label>
+        <input type="number" class="form-control" asp-for="ValidYear" required />
+        <span asp-validation-for="ValidYear" class="text-danger"></span>
+    </div>
+    <div class="mb-3 ">
+        <label asp-for="Cvv">CVV</label>
+        <input type="number" class="form-control" asp-for="Cvv" required />
+        <span asp-validation-for="Cvv" class="text-danger"></span>
+    </div>
+    <label>@Model.InvoiceAmount</label>
+
+
+
+
+    <input type="hidden" asp-for="ExpenseId" />
+    <button type="submit" class="btn btn-primary">Öde</button>
+</form>

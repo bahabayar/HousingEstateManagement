@@ -1,0 +1,44 @@
+﻿@model List<UserDto>
+<div class="m-0">
+    <h3>Yeni Kullanıcı Ekle</h3>
+    <a class="btn btn-success btn-sm" asp-controller="User" asp-action="AddUser">
+        Kullanıcı Ekle
+    </a>
+</div>
+<table id="myDataTable" class="table table-hover table-striped">
+    <thead class="thead-light">
+        <tr>
+
+            <th scope="col">Kimlik Numarası</th>
+            <th scope="col">Kullanıcı Adı</th>
+            <th scope="col">Adı</th>
+            <th scope="col">Soyadı</th>
+            <th scope="col">Email</th>
+            <th scope="col">Araba Plakası</th>
+
+            <th>
+
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var menu in Model)
+        {
+            <tr>
+
+                <td>@menu.IdentificationNumber</td>
+                <td>@menu.UserName</td>
+                <td>@menu.FirstName</td>
+                <td>@menu.LastName</td>
+                <td>@menu.Email</td>
+                <td>@menu.CarLicensePlate</td>
+
+
+                <td>
+                    <a href="/User/DeleteUser?id=@menu.Id" class="btn btn-danger">Sil</a>
+                    <a href="/User/UpdateUser?id=@menu.Id" class="btn btn-warning">Düzenle</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

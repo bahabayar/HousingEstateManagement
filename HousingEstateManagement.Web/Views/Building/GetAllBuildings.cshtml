@@ -1,0 +1,40 @@
+﻿@model IEnumerable<BuildingDto>
+
+<div class="m-0">
+    <h3>Siteye Yeni Bir Blok Ekle</h3>
+    <a class="btn btn-success btn-sm" asp-controller="Building" asp-action="CreateBuilding">
+        Blok Ekle
+    </a>
+</div>
+
+<table id="myDataTable" class="table table-hover table-striped">
+    <thead class="thead-light">
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Bloğun İsmi</th>
+            <th scope="col">Toplam Daire Sayısı</th>
+            <th></th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var building in Model)
+        {
+            <tr>
+                <td>@building.Id</td>
+                <td>@building.BuildingName</td>
+                <td>@building.TotalFlat</td>
+                <td>
+                    <a class="btn btn-warning" asp-controller="Building" asp-action="UpdateBuilding"
+                       asp-route-id="@building.Id">
+                        Güncelle
+                    </a>
+                    <a class="btn btn-danger" asp-controller="Building" asp-action="DeleteBuilding"
+                       asp-route-id="@building.Id">
+                        Sil
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

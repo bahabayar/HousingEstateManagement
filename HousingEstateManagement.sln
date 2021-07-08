@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HousingEstateManagement.Core", "HousingEstateManagement.Core\HousingEstateManagement.Core.csproj", "{0BEEA72D-131B-4BA8-95AA-8CA0B5499FE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HousingEstateManagement.SharedLibrary", "HousingEstateManagement.SharedLibrary\HousingEstateManagement.SharedLibrary.csproj", "{0C32C540-491F-42BF-82E8-32B062809EEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HousingEstateManagement.Data", "HousingEstateManagement.Data\HousingEstateManagement.Data.csproj", "{D12A51D3-289F-44E4-BFE3-FE141BC58D92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HousingEstateManagement.Service", "HousingEstateManagement.Service\HousingEstateManagement.Service.csproj", "{9666D6AD-E17B-4C41-8B72-C582CA5889A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HousingEstateManagement.Web", "HousingEstateManagement.Web\HousingEstateManagement.Web.csproj", "{2FE56476-86F8-4E83-A87E-72322903D50D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HousingEstateManagement.Payment.API", "HousingEstateManagement.Payment.API\HousingEstateManagement.Payment.API.csproj", "{B2AFCC2B-8645-47E3-8F58-ADFAD0656737}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BEEA72D-131B-4BA8-95AA-8CA0B5499FE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BEEA72D-131B-4BA8-95AA-8CA0B5499FE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BEEA72D-131B-4BA8-95AA-8CA0B5499FE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BEEA72D-131B-4BA8-95AA-8CA0B5499FE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C32C540-491F-42BF-82E8-32B062809EEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C32C540-491F-42BF-82E8-32B062809EEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C32C540-491F-42BF-82E8-32B062809EEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C32C540-491F-42BF-82E8-32B062809EEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D12A51D3-289F-44E4-BFE3-FE141BC58D92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D12A51D3-289F-44E4-BFE3-FE141BC58D92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D12A51D3-289F-44E4-BFE3-FE141BC58D92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D12A51D3-289F-44E4-BFE3-FE141BC58D92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9666D6AD-E17B-4C41-8B72-C582CA5889A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9666D6AD-E17B-4C41-8B72-C582CA5889A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9666D6AD-E17B-4C41-8B72-C582CA5889A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9666D6AD-E17B-4C41-8B72-C582CA5889A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FE56476-86F8-4E83-A87E-72322903D50D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FE56476-86F8-4E83-A87E-72322903D50D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FE56476-86F8-4E83-A87E-72322903D50D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FE56476-86F8-4E83-A87E-72322903D50D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2AFCC2B-8645-47E3-8F58-ADFAD0656737}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2AFCC2B-8645-47E3-8F58-ADFAD0656737}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2AFCC2B-8645-47E3-8F58-ADFAD0656737}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2AFCC2B-8645-47E3-8F58-ADFAD0656737}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8C9CA9D-679D-4BFB-9080-05CD886547E2}
+	EndGlobalSection
+EndGlobal
