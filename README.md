@@ -1,4 +1,4 @@
-![](C:\Users\bahab\Desktop\Arsiv\Images\Calloway.png)
+![](Images/Calloway.png)
 
 Kodluyoruz ve Apsiyon iş birliği ile yapılan **Apsiyon .Net Core Bootcamp**'nin bitirme projesi olarak **Housing Estate Management** adlı uygulamayı geliştirdim.  Projenin içerisinde İki farklı kullanıcı tipi bulunmakta ve bu kullanıcı tipine göre belli özellikler barındırmakta. 
 
@@ -30,15 +30,15 @@ Kodluyoruz ve Apsiyon iş birliği ile yapılan **Apsiyon .Net Core Bootcamp**'n
 
   **Şifre**:admin123
 
-![](C:\Users\bahab\Desktop\Arsiv\Images\AnaSayfa.PNG)
+![](Images/AnaSayfa.PNG)
 
-![](C:\Users\bahab\Desktop\Arsiv\Images\Borçlar Listesi.PNG)
+![](Images/Borçlar Listesi.PNG)
 
-![](C:\Users\bahab\Desktop\Arsiv\Images\Daire Liste.PNG)
+![](Images/Daire Liste.PNG)
 
-![](C:\Users\bahab\Desktop\Arsiv\Images\Kullanıcı Ekleme.PNG)
+![](Images/Kullanıcı Ekleme.PNG)
 
-![](C:\Users\bahab\Desktop\Arsiv\Images\Login.PNG)
+![](Images/Login.PNG)
 
 <h2> 🛠 &nbsp;Kullanılan Teknolojiler</h2>
 
