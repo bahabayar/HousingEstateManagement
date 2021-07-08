@@ -13,12 +13,12 @@
     <thead class="thead-light">
         <tr>
             <th scope="col">Id</th>
-            <th scope="col">Ödenme Durumu</th>
+            <th scope="col">Fatura Tipi</th>
             <th scope="col">Ücret</th>
             <th scope="col">Fatura Tarihi</th>
             <th scope="col">Daire Numarası</th>
             <th scope="col">Kullanıcı İsmi</th>
-            <th scope="col">Gider Türü</th>
+            <th scope="col">Ödenme Durumu</th>
 
             <th>
 
@@ -30,10 +30,12 @@
         {
         <tr>
             <td>@expense.Id</td>
+            <td>@expense.ExpenseTypeName</td>
             <td>@expense.Price</td>
             <td>@expense.InvoiceDate</td>
             <td>@expense.FlatNumber</td>
             <td>@expense.UserName</td>
+
             @if (expense.IsPaid == true)
             {
                 <td><span class="badge badge-success">Ödendi</span></td>
@@ -42,7 +44,9 @@
             {
                 <td><span class="badge badge-danger">Ödenmedi</span></td>
             }
-            <td>@expense.ExpenseTypeName</td>
+
+
+
 
             <td>
                 <a class="btn btn-warning " asp-controller="Expense" asp-action="UpdateExpense"

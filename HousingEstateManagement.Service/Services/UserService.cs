@@ -58,6 +58,7 @@ namespace HousingEstateManagement.Service.Services
             user.FirstName = userDto.FirstName;
             user.LastName = userDto.LastName;
             user.UserName = userDto.UserName;
+            user.Email = userDto.Email;
             user.IdentificationNumber = userDto.IdentificationNumber;
             user.CarLicensePlate = userDto.CarLicensePlate;
             var result = await _userManager.UpdateAsync(user);
