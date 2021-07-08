@@ -32,11 +32,11 @@ Kodluyoruz ve Apsiyon iş birliği ile yapılan **Apsiyon .Net Core Bootcamp**'n
 
 ![](Images/AnaSayfa.PNG)
 
-![](Images/Borçlar Listesi.PNG)
+![](Images/BorçlarListesi.PNG)
 
-![](Images/Daire Liste.PNG)
+![](Images/DaireListe.PNG)
 
-![](Images/Kullanıcı Ekleme.PNG)
+![](Images/KullanıcıEkleme.PNG)
 
 ![](Images/Login.PNG)
 
