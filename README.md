@@ -32,11 +32,11 @@ Kodluyoruz ve Apsiyon iş birliği ile yapılan **Apsiyon .Net Core Bootcamp**'n
 
 ![](Images/AnaSayfa.PNG)
 
-![](Images/BorçlarListesi.PNG)
+![](https://raw.githubusercontent.com/bahabayar/HousingEstateManagement/master/Images/Bor%C3%A7lar%20Listesi.PNG)
 
-![](Images/DaireListe.PNG)
+![](https://raw.githubusercontent.com/bahabayar/HousingEstateManagement/master/Images/Daire%20Liste.PNG)
 
-![](Images/KullanıcıEkleme.PNG)
+![](https://raw.githubusercontent.com/bahabayar/HousingEstateManagement/master/Images/Kullan%C4%B1c%C4%B1%20Ekleme.PNG)
 
 ![](Images/Login.PNG)
 
