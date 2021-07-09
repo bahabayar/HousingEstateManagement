@@ -4,7 +4,7 @@ Kodluyoruz ve Apsiyon iş birliği ile yapılan **Apsiyon .Net Core Bootcamp**'n
 
 ### 1-Admin/Yönetici Rolü 
 
-* :ear: ​**Duyuru İşlemleri : ** Yönetici **Housing Estate Management** aracılığı ile duyuru ekleyebilir, silebilir, düzenleyebilir.
+* :ear: ​**Duyuru İşlemleri :** Yönetici **Housing Estate Management** aracılığı ile duyuru ekleyebilir, silebilir, düzenleyebilir.
 * :house: **Site ile İlgili İşlemler :** Yönetici  **Housing Estate Management** aracılığı ile siteye blok ekleyebilir, silebilir, düzenleyebilir aynı zamanda siteye daire ekleyebilir, silebilir, düzenleyebilir.
 * :man: **Kullanıcı İşlemleri :** Yönetici  **Housing Estate Management** aracılığı ile kullanıcı ekleyebilir, silebilir, düzenleyebilir.
 * :dollar:  **Finansal İşlemler** : Yönetici  **Housing Estate Management** aracılığı ile bütün borçları görüntüleyebilir, ekleyebilir, silebilir, düzenleyebilir, bütün ödenmiş borçları görüntüleyebilir, gider türü ekleyebilir, silebilir, düzenleyebilir, toplu olarak veya tek bir daire’yi borçlandırabilir. 
@@ -82,6 +82,9 @@ Kodluyoruz ve Apsiyon iş birliği ile yapılan **Apsiyon .Net Core Bootcamp**'n
    <img src="https://raw.githubusercontent.com/TanZng/TanZng/master/assets/bonefire.gif" width="200"/>
      <br>
      Projenin Linki: <a href="https://github.com/bahabayar/HousingEstateManagement">Housing Estate Management</a>
+     <br>
+     <br>
+     LinkedIn: <a href="https://www.linkedin.com/in/baha-bayar/"> LinkedIn Hesabım</a>
      <br>
      Instagram: <a href="https://www.instagram.com/bahabayar/"> Instagram Hesabım</a>
      <br>
