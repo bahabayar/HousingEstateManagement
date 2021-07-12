@@ -23,7 +23,7 @@ namespace HousingEstateManagement.Data.Seeds
                 Email = "admin@admin.com",
                 EmailConfirmed = true,
                 IdentificationNumber = "532515412352",
-                NormalizedEmail = "admin@admin.com",
+                NormalizedEmail = "ADMIN@ADMIN.COM",
                 FirstName = "Admin",
                 LastName = "Admin",
                 UserName = "admin",
